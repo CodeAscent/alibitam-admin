@@ -1,0 +1,89 @@
+.btn-group {
+  width: 93%;
+  height: 30px;
+}
+.loginbox {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: white;
+}
+.linkstyle {
+  text-decoration: none;
+  color: #6a52a0;
+}
+
+.roundedimage {
+  border-radius: 50%;
+}
+.fsize {
+  font-size: 12px;
+}
+.btncolor {
+  color: #6a52a0;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+
+.signinbutton {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  background: #1ca046;
+  border: 1px solid #1ca046;
+  color: #fff;
+  width: 100%;
+
+  border-radius: 5px;
+  height: 30px;
+}
+
+input[type="submit"]:hover {
+  background: #1ca046;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  border-radius: 20px;
+  width: 370px;
+  background-color: #6a52a0;
+  padding: 2rem;
+  margin-bottom: 20px;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 15px;
+  box-shadow: none;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+  font-size: 12px;
+}

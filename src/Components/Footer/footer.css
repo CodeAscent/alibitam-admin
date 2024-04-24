@@ -1,0 +1,68 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+}
+
+footer {
+  background-color: #845eaa;
+}
+
+.card {
+  color: #fff !important;
+}
+
+section {
+  background-color: #fff;
+  padding-top: 2rem;
+}
+
+#footer a {
+  color: #000;
+  text-decoration: none !important;
+}
+
+#footer ul.social li a i {
+  margin: 0 25px;
+  font-size: 25px;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+  width: 160px;
+}
+
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  font-weight: 700;
+}
+
+#footer ul .list-inline-item a i:hover {
+  font-weight: 700;
+  color: red;
+}
+
+.borderleft p span:first-child {
+  border-right: 2px solid;
+}
+
+.borderleft p span {
+  padding: 0 12px;
+}
+
+@media (max-width: 767px) {
+  #footer h5 {
+    padding-left: 0;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color-me {
+  color: blue;
+}
+Al .backcolor {
+  background-color: white;
+}
+
+.nav-item:hover {
+  background-color: #845eaa;
+  color: white;
+  transition: all 0.2s ease-out;
+}
+
+.freetutorial {
+  background-color: #6a52a0;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu {
+  display: block;
+}
